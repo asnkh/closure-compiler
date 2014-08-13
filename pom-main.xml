@@ -26,17 +26,13 @@
   <name>Closure Compiler</name>
   <version>1.0-SNAPSHOT</version>
 
-  <url>https://developers.google.com/closure/compiler/</url>
+  <url>https://github.com/ankh/closure-compiler/</url>
   <description>
-    Closure Compiler is a JavaScript optimizing compiler. It parses your
-    JavaScript, analyzes it, removes dead code and rewrites and minimizes
-    what's left. It also checks syntax, variable references, and types, and
-    warns about common JavaScript pitfalls. It is used in many of Google's
-    JavaScript apps, including Gmail, Google Web Search, Google Maps, and
-    Google Docs.
+    Forked from original closure-compiler by Google:
+    https://github.com/google/closure-compiler .
+    Aims faster compilation.
   </description>
   <inceptionYear>2009</inceptionYear>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.outputEncoding>UTF-8</project.build.outputEncoding>

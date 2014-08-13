@@ -25,42 +25,29 @@
   <name>Closure Compiler Parent</name>
   <version>1.0-SNAPSHOT</version>
 
-  <url>https://github.com/google/closure-compiler/</url>
+  <url>https://github.com/ankh/closure-compiler/</url>
   <description>
-    Closure Compiler is a JavaScript optimizing compiler. It parses your
-    JavaScript, analyzes it, removes dead code and rewrites and minimizes
-    what's left. It also checks syntax, variable references, and types, and
-    warns about common JavaScript pitfalls. It is used in many of Google's
-    JavaScript apps, including Gmail, Google Web Search, Google Maps, and
-    Google Docs.
+    Forked from original closure-compiler by Google:
+    https://github.com/google/closure-compiler .
+    Aims faster compilation.
   </description>
   <inceptionYear>2009</inceptionYear>
 
   <prerequisites>
-    <maven>2.2.1</maven>
+    <maven>3.2.1</maven>
   </prerequisites>
 
   <scm>
     <connection>
-      scm:git:https://github.com/google/closure-compiler.git
+      scm:git:https://github.com/asnkh/closure-compiler.git
     </connection>
     <developerConnection>
-      scm:git:git@github.com:google/closure-compiler.git
+      scm:git:git@github.com:asnkh/closure-compiler.git
     </developerConnection>
     <url>
-      https://github.com/google/closure-compiler
+      https://github.com/asnkh/closure-compiler
     </url>
   </scm>
-
-  <issueManagement>
-    <system>code.google.com</system>
-    <url>http://github.com/google/closure-compiler/issues</url>
-  </issueManagement>
-
-  <organization>
-    <name>Google</name>
-    <url>http://www.google.com</url>
-  </organization>
 
   <licenses>
     <license>
@@ -108,6 +95,12 @@
       <id>plindner</id>
       <name>Paul Lindner</name>
       <email>lindner@inuus.com</email>
+    </developer>
+
+    <developer>
+      <id>asnkh</id>
+      <name>Kohei Asano</name>
+      <email>asano_ko@worksap.co.jp</email>
     </developer>
   </developers>
 
@@ -184,7 +177,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
   <profiles>
     <profile>
       <id>parallel-test</id>
